@@ -1,0 +1,46 @@
+1-addi x1,x0,20	0 Y
+2-addi x2,x0,5	4 Y
+3-add x3,x2,x1	8 Y
+
+4-jal x5,8(x0)	12 Y
+	5-addi x2,x0,0 16
+5-beq x1,x0,126	20 Y
+6-addi x6,x0,1	24 
+7-addi x4,x0,0	28
+8-xor x7,x6,x4	32
+9-or x7,x6,x4	36
+10-and x7,x6,x4	40
+11-sub x7,x3,x2	44
+12-slli x7,x2,2	48
+13-slti x7,x2,6	52
+14-addi x8,x0,2565	56
+15-sw x8, 0(x0)	60
+16-sh x8, 4(x0)	64
+17-sb x8, 8(x0)	68
+19-lbu x7,0(x0)	72
+20-lb x7,0(x0)	76
+21-lhu x7,0(x0)	80
+22-lh x7,0(x0)	84
+18-lw x7,0(x0)	88
+23-slti x7,x2,-2 92
+24-xori x7,x2,0	96
+25-ori x7,x2,0	100
+26-andi x7,x2,1	104
+27-srli x7,x2,2	108
+28-srai x7,x2,2	112
+29-addi x9,x0,2	116
+30-sll x7,x2,x9	120
+31-slt x7,x9,x2	124
+32-addi x9,x0,-2 128
+33-sltu x7,x2,x9 132
+34-addi x9,x0,2 140
+34-srl x7,x2,x9	144
+35-sra x7,x2,x9 148
+
+36-FENCE	152
+37-FENCE.TSO	156
+38-PAUSE	160
+39-addi x1,x0,0	164
+40-JALR x0,0(x5) 168
+41-EBREAK	172
+--	

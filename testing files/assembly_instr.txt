@@ -1,0 +1,23 @@
+lui x1, 64 Y 0
+auipc x2, 64 Y 4
+addi x3, x0, 2 Y 8
+addi x4, x0, 4 Y 12 
+addi x4, x4, -2 Y 16
+beq x3, x4, 4  Y 20
+	addi x4, x0, 0 S 24
+	bne x4, x3, 4  28
+addi x4, x0, 1 32
+bne x4, x3, 4 36
+	addi x4, x0, 6 40
+blt x4, x3, 4 44
+	addi x4, x0, 6 48
+bge x4, x3, 4 52
+addi x4, x0, 3 56
+bge x4, x3, 4 60
+	addi x6, x0, 4 64
+addi x5, x0, -2 68
+bltu x4, x5, 4 72
+	addi x5, x0, 2 76
+bgeu x5, x4, 4 80
+	addi x5, x0, 4 84
+NOOP 88
