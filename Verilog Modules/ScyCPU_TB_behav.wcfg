@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="ScyCPU_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="ScyCPU_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="315.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="423.201 ns"></ZoomEndTime>
+      <Cursor1Time time="315.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="150"></NameColumnWidth>
+      <ValueColumnWidth column_width="63"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="46" />
+   <wave_markers>
+      <marker time="364884" label="" />
+   </wave_markers>
+   <wvobject fp_name="/ScyCPU_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/SLL1_out" type="array">
+      <obj_property name="ElementShortName">SLL1_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SLL1_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/Imm_gen_out" type="array">
+      <obj_property name="ElementShortName">Imm_gen_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm_gen_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/C_Inst" type="array">
+      <obj_property name="ElementShortName">C_Inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_Inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="vbus149" type="vbus">
+      <obj_property name="label">Opcode</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <wvobject fp_name="/ScyCPU_TB/DUT/C_Inst[6]" type="logic">
+         <obj_property name="ElementShortName">[6]</obj_property>
+         <obj_property name="ObjectShortName">[6]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/C_Inst[5]" type="logic">
+         <obj_property name="ElementShortName">[5]</obj_property>
+         <obj_property name="ObjectShortName">[5]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/C_Inst[4]" type="logic">
+         <obj_property name="ElementShortName">[4]</obj_property>
+         <obj_property name="ObjectShortName">[4]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/C_Inst[3]" type="logic">
+         <obj_property name="ElementShortName">[3]</obj_property>
+         <obj_property name="ObjectShortName">[3]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/C_Inst[2]" type="logic">
+         <obj_property name="ElementShortName">[2]</obj_property>
+         <obj_property name="ObjectShortName">[2]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/C_Inst[1]" type="logic">
+         <obj_property name="ElementShortName">[1]</obj_property>
+         <obj_property name="ObjectShortName">[1]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/C_Inst[0]" type="logic">
+         <obj_property name="ElementShortName">[0]</obj_property>
+         <obj_property name="ObjectShortName">[0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="vbus263" type="vbus">
+      <obj_property name="label">CU_out</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <wvobject fp_name="/ScyCPU_TB/DUT/Control_Unit/Branch" type="logic">
+         <obj_property name="ElementShortName">Branch</obj_property>
+         <obj_property name="ObjectShortName">Branch</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/Control_Unit/MemRead" type="logic">
+         <obj_property name="ElementShortName">MemRead</obj_property>
+         <obj_property name="ObjectShortName">MemRead</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/Control_Unit/MemtoReg" type="array">
+         <obj_property name="ElementShortName">MemtoReg[1:0]</obj_property>
+         <obj_property name="ObjectShortName">MemtoReg[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/Control_Unit/ALUOp" type="array">
+         <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/Control_Unit/MemWrite" type="logic">
+         <obj_property name="ElementShortName">MemWrite</obj_property>
+         <obj_property name="ObjectShortName">MemWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/Control_Unit/ALUSrc" type="logic">
+         <obj_property name="ElementShortName">ALUSrc</obj_property>
+         <obj_property name="ObjectShortName">ALUSrc</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/Control_Unit/RegWrite" type="logic">
+         <obj_property name="ElementShortName">RegWrite</obj_property>
+         <obj_property name="ObjectShortName">RegWrite</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/Control_Unit/Mux_RD1_PC" type="logic">
+         <obj_property name="ElementShortName">Mux_RD1_PC</obj_property>
+         <obj_property name="ObjectShortName">Mux_RD1_PC</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/Control_Unit/PC_load" type="logic">
+         <obj_property name="ElementShortName">PC_load</obj_property>
+         <obj_property name="ObjectShortName">PC_load</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/PC_out" type="array">
+      <obj_property name="ElementShortName">PC_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DataRead2" type="array">
+      <obj_property name="ElementShortName">DataRead2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataRead2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DataRead1" type="array">
+      <obj_property name="ElementShortName">DataRead1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataRead1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/MUX_RD1_PC" type="logic">
+      <obj_property name="ElementShortName">MUX_RD1_PC</obj_property>
+      <obj_property name="ObjectShortName">MUX_RD1_PC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/ALU_SRCMUX_out" type="array">
+      <obj_property name="ElementShortName">ALU_SRCMUX_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_SRCMUX_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/ALU_2_SRCMUX_out" type="array">
+      <obj_property name="ElementShortName">ALU_2_SRCMUX_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_2_SRCMUX_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/ALU_Control_Unit/ALUSel" type="array">
+      <obj_property name="ElementShortName">ALUSel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSel[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/shamt" type="array">
+      <obj_property name="ElementShortName">shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">shamt[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/ALU/r" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">r[31:0]</obj_property>
+      <obj_property name="ObjectShortName">r[31:0]</obj_property>
+      <obj_property name="label">ALU_RES</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/PC_Branch_Adder_out" type="array">
+      <obj_property name="ElementShortName">PC_Branch_Adder_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Branch_Adder_out[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/branch_MUX/sel" type="array">
+      <obj_property name="ElementShortName">sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/Br_cond" type="logic">
+      <obj_property name="ElementShortName">Br_cond</obj_property>
+      <obj_property name="ObjectShortName">Br_cond</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/Branch" type="logic">
+      <obj_property name="ElementShortName">Branch</obj_property>
+      <obj_property name="ObjectShortName">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/PC_Branch_MUX_SEL" type="array">
+      <obj_property name="ElementShortName">PC_Branch_MUX_SEL[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_Branch_MUX_SEL[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/PC_input" type="array">
+      <obj_property name="ElementShortName">PC_input[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_input[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DataRead1" type="array">
+      <obj_property name="ElementShortName">DataRead1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataRead1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM/F3" type="array">
+      <obj_property name="ElementShortName">F3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">F3[2:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM/addr" type="array">
+      <obj_property name="ElementShortName">addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM/mem[0]" type="array">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM/mem[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM/mem[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:2047][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:2047][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM/mem[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/RGF/RegFile[7]" type="array">
+      <obj_property name="ElementShortName">[7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group2296" type="group">
+      <obj_property name="label">Mem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/ScyCPU_TB/DUT/IM/mem[0]" type="array">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/IM/mem[1]" type="array">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ScyCPU_TB/DUT/IM/mem[2]" type="array">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/IM/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:2047][31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:2047][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/DM_MUX/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/RGF/RegFile" type="array">
+      <obj_property name="ElementShortName">RegFile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">RegFile[31:0][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/RGF/RegFile[8]" type="array">
+      <obj_property name="ElementShortName">[8][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/RGF/RegFile[9]" type="array">
+      <obj_property name="ElementShortName">[9][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/RGF/RegFile[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/RGF/RegFile[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/RGF/RegFile[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/RGF/RegFile[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/RGF/RegFile[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ScyCPU_TB/DUT/RGF/RegFile[6]" type="array">
+      <obj_property name="ElementShortName">[6][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
